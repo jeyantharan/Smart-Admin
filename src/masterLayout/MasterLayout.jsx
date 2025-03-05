@@ -335,7 +335,7 @@ const MasterLayout = ({ children }) => {
             </li>
 
             {/* Ai Application Dropdown */}
-            <li className='dropdown'>
+            {/* <li className='dropdown'>
               <Link href='#'>
                 <i className='ri-robot-2-line mr-10' />
 
@@ -398,10 +398,10 @@ const MasterLayout = ({ children }) => {
                   </Link>
                 </li>
               </ul>
-            </li>
+            </li> */}
 
             {/* Crypto Currency Dropdown */}
-            <li className='dropdown'>
+            {/* <li className='dropdown'>
               <Link href='#'>
                 <i className='ri-robot-2-line mr-10' />
                 <span>Crypto Currency</span>
@@ -446,12 +446,12 @@ const MasterLayout = ({ children }) => {
                   </Link>
                 </li>
               </ul>
-            </li>
+            </li> */}
 
-            <li className='sidebar-menu-group-title'>UI Elements</li>
+            {/* <li className='sidebar-menu-group-title'>UI Elements</li> */}
 
             {/* Components Dropdown */}
-            <li className='dropdown'>
+            {/* <li className='dropdown'>
               <Link href='#'>
                 <Icon
                   icon='solar:document-text-outline'
@@ -652,10 +652,10 @@ const MasterLayout = ({ children }) => {
                   </Link>
                 </li>
               </ul>
-            </li>
+            </li> */}
 
             {/* Forms Dropdown */}
-            <li className='dropdown'>
+            {/* <li className='dropdown'>
               <Link href='#'>
                 <Icon icon='heroicons:document' className='menu-icon' />
                 <span>Forms</span>
@@ -700,10 +700,10 @@ const MasterLayout = ({ children }) => {
                   </Link>
                 </li>
               </ul>
-            </li>
+            </li> */}
 
             {/* Table Dropdown */}
-            <li className='dropdown'>
+            {/* <li className='dropdown'>
               <Link href='#'>
                 <Icon icon='mingcute:storage-line' className='menu-icon' />
                 <span>Table</span>
@@ -728,10 +728,10 @@ const MasterLayout = ({ children }) => {
                   </Link>
                 </li>
               </ul>
-            </li>
+            </li> */}
 
             {/* Chart Dropdown */}
-            <li className='dropdown'>
+            {/* <li className='dropdown'>
               <Link href='#'>
                 <Icon icon='solar:pie-chart-outline' className='menu-icon' />
                 <span>Chart</span>
@@ -767,9 +767,9 @@ const MasterLayout = ({ children }) => {
                   </Link>
                 </li>
               </ul>
-            </li>
+            </li> */}
 
-            <li>
+            {/* <li>
               <Link
                 href='/widgets'
                 className={pathname === "/widgets" ? "active-page" : ""}
@@ -777,7 +777,7 @@ const MasterLayout = ({ children }) => {
                 <Icon icon='fe:vector' className='menu-icon' />
                 <span>Widgets</span>
               </Link>
-            </li>
+            </li> */}
 
             {/* Users Dropdown */}
             <li className='dropdown'>
@@ -952,7 +952,7 @@ const MasterLayout = ({ children }) => {
                 </li>
               </ul>
             </li>
-            <li>
+            {/* <li>
               <Link
                 href='/pricing'
                 className={pathname === "/pricing" ? "active-page" : ""}
@@ -963,11 +963,11 @@ const MasterLayout = ({ children }) => {
                 />
                 <span>Pricing</span>
               </Link>
-            </li>
+            </li> */}
 
             {/* Blog */}
 
-            <li className='dropdown'>
+            {/* <li className='dropdown'>
               <Link href='#'>
                 <Icon
                   icon='flowbite:users-group-outline'
@@ -1006,7 +1006,7 @@ const MasterLayout = ({ children }) => {
                   </Link>
                 </li>
               </ul>
-            </li>
+            </li> */}
 
             <li>
               <Link
